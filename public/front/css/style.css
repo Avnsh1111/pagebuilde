@@ -1,14 +1,14 @@
 
 /* CSS Document */
 
-/* 
+/*
     Created on   : 26/02/2019.
     Last Update  : 07/04/2019.
     Theme Name   : Rogan - Creative Multi-Purpose HTML Template.
     Version      : 1.1.
     Author       : Creativegigs.
     Developed by : Jubayer al hasan. (me@heloshape.com)
-   
+
 */
 
 
@@ -160,7 +160,7 @@
 @import url('../vendor/tabs/tabs.css');
 
 
-/*** 
+/***
 
 ====================================================================
   Loading Transition
@@ -192,7 +192,7 @@
   animation: spinner 1s infinite linear;
   border-radius: 50%;
   border: 3px solid rgba(255, 57, 70, 0.15);
-  border-top-color: #ff3946; 
+  border-top-color: #ff3946;
   height: 170px;
   margin: 0 auto 45px auto;
   width: 170px;
@@ -570,7 +570,7 @@ body .solid-button-one:hover,.navbar .navbar-toggler,.faq-tab-wrapper .faq-panel
 .arch-footer .top-footer .phone,.theme-footer-one.arch-footer .top-footer .footer-list ul li a:hover,.theme-tab-basic.theme-tab .tabs-menu li.z-active a,.theme-tab .z-content-inner ol li a:hover,.studio-feature-area .feature-block:hover .title,
 .z-tabs.mobile > ul.z-tabs-mobile > li > a > span.drp-icon,#studio-banner-two .main-text-wrapper .button-link,.studio-feature-area .feature-block .icon-s,.studio-feature-area .feature-block .detail-button,.studio-client-slider .customer-block:before,
 .studio-contact-area .contact-text .call-to-dial,.studio-footer-one .top-footer h2 a,.studio-footer-one .top-footer .footer-list ul li a:hover  {
-  color: #FF3A46;
+  color: #000000;
 }
 .scroll-top,.theme-footer-one .top-footer .footer-information ul li a:hover,.theme-menu-two .quote-button:hover,.theme-Ecommerce-menu .right-content .cart-action-wrapper .button-group a:hover,
 #eCommerce-carousel .inner-item-wrapper .button-group .shop-now:hover,#eCommerce-carousel .inner-item-wrapper .button-group .details-info-button:hover,.product-details-modal .main-bg-wrapper .cart-button,
@@ -588,7 +588,7 @@ body .solid-button-one:hover,.navbar .navbar-toggler,.faq-tab-wrapper .faq-panel
 .pricing-tab-menu .nav-tabs .nav-item .nav-link.active,#arch-carousel .indicators-one li.active span,.about-arch .text-wrapper .mark-text:before,.about-arch .img-box .sq-box,body .line-button-three:hover,
 .arch-testimonial .owl-theme .owl-dots .owl-dot.active span,.arch-testimonial .owl-theme .owl-dots .owl-dot span:hover,#arch-carousel .details-info-button,.theme-tab .tabs-menu li a:before,
 .theme-tab .z-content-inner .list-item li:before,.theme-tab-solid.theme-tab .tabs-menu li.z-active a,.theme-tab .nested-tab-menu li.z-active a:before,.action-banner-three,.studio-client-slider .center .customer-block  {
-  background: #FF3A46;
+  background: #000000;
 }
 .theme-footer-one .top-footer .footer-information ul li a:hover,.seo-contact-banner .contact-button:hover,.theme-Ecommerce-menu .right-content .cart-action-wrapper .button-group a:hover,body .theme-button-one,
 .theme-sidebar-widget .size-filter li a:hover,.shop-details .procuct-details .product-info .cart-button,.shop-details .procuct-details .product-info .wishlist-button:hover,.faq-page .submit-faq button,
@@ -596,7 +596,7 @@ body .solid-button-one:hover,.navbar .navbar-toggler,.faq-tab-wrapper .faq-panel
 .blog-details .user-comment-area .single-comment .reply:hover,.contact-us-section .contact-info ul li a:hover,.form-style-three .send-button:hover,body .line-button-one,body .solid-button-one,body .line-button-two:hover,
 .agn-our-pricing .table-wrapper .pr-column:hover .line-button-two,#theme-banner-two .main-wrapper .button-group .contact-button:hover,.agn-our-gallery .main-wrapper .view-gallery:hover,.theme-footer-three .social-icon li a:hover,
 .theme-footer-four .social-icon li a:hover,.pricing-tab-menu .nav-wrapper,body .line-button-three:hover,.arch-testimonial .owl-theme .owl-dots .owl-dot span,.studio-feature-area .feature-block:hover {
-  border-color: #FF3A46;
+  border-color: #000000;
 }
 
 /*------------------- Theme Title ------------------*/
@@ -743,7 +743,7 @@ body .solid-button-one:hover,.navbar .navbar-toggler,.faq-tab-wrapper .faq-panel
   font-size: 15px;
   letter-spacing: 1px;
   display: block;
-  color: #212121; 
+  color: #212121;
   padding-top: 10px;
 }
 .theme-main-menu {
@@ -2660,7 +2660,7 @@ body .solid-button-one:hover,.navbar .navbar-toggler,.faq-tab-wrapper .faq-panel
   padding-bottom: 35px;
 }
 .agn-contact-banner .contact-button {
-  font-size: 20px; 
+  font-size: 20px;
   line-height: 56px;
   width: 220px;
 }
@@ -4125,7 +4125,7 @@ body .solid-button-one:hover,.navbar .navbar-toggler,.faq-tab-wrapper .faq-panel
   content: url(../images/shape/shape-19.svg);
   position: absolute;
   top:50%;
-  left:50px; 
+  left:50px;
 }
 .our-feature-sass .section-shape-three {
   position: absolute;
@@ -4761,7 +4761,7 @@ body .solid-button-one:hover,.navbar .navbar-toggler,.faq-tab-wrapper .faq-panel
   position: relative;
   margin: -8px 15px 0 0;
 }
-.eCommerce-search {width: 300px; position: relative;} 
+.eCommerce-search {width: 300px; position: relative;}
 .eCommerce-search input {
   width: 100%;
   border: none;
@@ -5522,8 +5522,8 @@ body .solid-button-one:hover,.navbar .navbar-toggler,.faq-tab-wrapper .faq-panel
 }
 .cart-list-form .table th:first-child {text-align: left;}
 .cart-list-form .table tbody td {
-  padding: 0 0 70px; 
-  border: none; 
+  padding: 0 0 70px;
+  border: none;
   vertical-align: middle;
   text-align: center;
 }
@@ -6943,7 +6943,7 @@ font-weight:700;text-decoration: underline;}
   position: relative;
   background-size: cover;
   background-repeat: no-repeat;
-  animation: imageBgAnim 40s infinite linear alternate; 
+  animation: imageBgAnim 40s infinite linear alternate;
 }
 .project-details-creative .pd-banner .container,
 .project-details-creative .pd-banner .container-inner {position: relative;height: 100%;}
@@ -7202,7 +7202,7 @@ font-weight:600;}
   padding: 50px 0 40px;
   border-bottom: 1px solid #e5e5e5;
 }
-.blog-details .user-comment-area .single-comment.comment-reply {margin-left: 100px;} 
+.blog-details .user-comment-area .single-comment.comment-reply {margin-left: 100px;}
 .blog-details .user-comment-area .single-comment .reply {
   font-family: 'Poppins', sans-serif;
   font-weight:600;
@@ -7579,7 +7579,7 @@ font-weight:600;}
   pointer-events: none;
   transform: scale3d(1.01,1.01,1);
 }
-.js .slide__img-wrap, 
+.js .slide__img-wrap,
 .js .slide__title-wrap,
 .js .slide__side {opacity: 0;pointer-events: none;}
 .js .slide--current .slide__img-wrap {
@@ -7920,7 +7920,7 @@ font-weight:700;color: #fff;}
   top:0;
   transition: all 0.1s ease-in-out;
 }
-.signUp-page .acType-content .acType-list li>div input:checked + label:before {border-color: #FF3A46;}
+.signUp-page .acType-content .acType-list li>div input:checked + label:before {border-color: #000000;}
 .signUp-page .acType-content .acType-list li>div input:checked + label {color:rgba(47,52,62,1); }
 .signUp-page .acType-content {border-bottom: 1px solid #e0e0e0;padding-bottom: 65px;}
 .signUp-page .agreement-checkbox label {
@@ -8243,7 +8243,7 @@ font-weight:700;font-size: 55px;}
 .theme-footer-four.light-v .bottom-footer {border-top-color: #ededed;}
 /*--------------------- Modal -------------------*/
 /*
-Modal animation 
+Modal animation
 */
 .modal .modal-dialog {transform: translate(0, 0); }
 .modal .fade-right {animation: fadeInLeft 0.5s;animation-direction: reverse; }
@@ -9010,14 +9010,14 @@ Modal animation
 .arch-contact .form-wrapper .inner-wrapper {
   background: #fff;
   padding: 70px 40px 60px 75px;
-  border-bottom: 4px solid #FF3A46;
+  border-bottom: 4px solid #000000;
   box-shadow: 0px 50px 100px 0px rgba(3, 3, 3, 0.02);
 }
 .arch-contact .form-wrapper form input,
 .arch-contact .form-wrapper form textarea {
   width: 100%;
   border:none;
-  border-bottom: 1px solid #FF3A46;
+  border-bottom: 1px solid #000000;
   margin-bottom: 30px;
   color: #848484;
 }
@@ -9062,7 +9062,7 @@ font-weight:700;}
 .theme-footer-one.arch-footer .bottom-footer ul li a {color: #808080;}
 
 /*-----------------------------------
-            STUDIO PORTFOLIO ONE                 
+            STUDIO PORTFOLIO ONE
 --------------------------------------*/
 /*-------------- Header/Menu ------------*/
 .eCommerce-side-menu.op-page-menu-one {left: auto;right: 0;transform-origin: 100% 0%;}
@@ -9252,7 +9252,7 @@ html[lang="ru"] .op-menu-one .ct-language__dropdown li a[data-lang="ru"] {color:
 .op-about-us-one .top-text p:first-letter {
   -webkit-initial-letter: 4 1;
           initial-letter: 4 1;
-  font-size: 136px; 
+  font-size: 136px;
   vertical-align: middle;
   margin-right: 10px;
   margin-bottom: 5px;
@@ -9558,7 +9558,7 @@ html[lang="ru"] .op-menu-one .ct-language__dropdown li a[data-lang="ru"] {color:
 .op-footer-one .bottom-text ul li a:hover {color: #ff4649;}
 .op-footer-one .bottom-text  p {font-size: 18px;color: #c9c9c9;}
 /*-----------------------------------
-            STUDIO PORTFOLIO TWO                 
+            STUDIO PORTFOLIO TWO
 --------------------------------------*/
 .studio-box-container {padding: 50px; background: #efefef; z-index: 5;}
 .studio-box-container .main-page-wrapper {background: #fff; position: relative;}
@@ -9569,7 +9569,7 @@ html[lang="ru"] .op-menu-one .ct-language__dropdown li a[data-lang="ru"] {color:
   position: relative;
   padding: 200px 100px 200px;
   max-width: 1920px;
-  margin: 0 auto; 
+  margin: 0 auto;
 }
 #studio-banner-two .main-text-wrapper {position: relative; max-width: 600px;z-index: 2;}
 #studio-banner-two .main-text-wrapper h1 {
@@ -9590,7 +9590,7 @@ html[lang="ru"] .op-menu-one .ct-language__dropdown li a[data-lang="ru"] {color:
 }
 /*---------------- Action Banner Three ---------------*/
 .action-banner-three {
-  padding: 70px 0 35px; 
+  padding: 70px 0 35px;
   margin-top: 50px;
   position: relative;
   z-index: 5;

@@ -14,7 +14,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::group(['as' => 'front.'], function () {
-    Route::get('/', [\App\Http\Controllers\Front\HomeController::class,'index'])->name('home');
+    Route::get('/', [\App\Http\Controllers\Front\HomeController::class,'index'])->name('home')->middleware('pageview');
 
     //Login page
     Route::get('/login', [\App\Http\Controllers\Front\AuthController::class,'index'])->name('login');
@@ -37,6 +37,8 @@ Route::group(['as' => 'front.'], function () {
     Route::post('/sign-up/submit', [\App\Http\Controllers\Front\AuthController::class,'signupSubmit'])->name('signup.submit');
 
     Route::get('/verify-email/{hash}', [\App\Http\Controllers\Front\AuthController::class,'verifyEmail'])->name('signup.verifyEmail');
+
+    Route::get('/{slug}', [\App\Http\Controllers\Front\HomeController::class,'page'])->middleware('pageview');
 
 
 });
