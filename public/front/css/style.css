@@ -377,7 +377,7 @@ body .solid-button-one {
   text-align: center;
   color: #fff;
   text-transform: capitalize;
-  box-shadow: 0px 13px 27px 0px rgba(163, 48, 53, 0.25);
+  box-shadow: 0px 13px 27px 0px rgb(22 22 22 / 25%)
 }
 body .solid-button-one:hover {background: #fff;box-shadow: none;}
 body .solid-button-one .icon-right {vertical-align: -1px;margin-left: 5px;}

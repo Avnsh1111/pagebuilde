@@ -31,7 +31,7 @@
     <meta name="apple-mobile-web-app-status-bar-style" content="#233D63">
     <title>Limkokwing University of Creative Technology</title>
     <!-- Favicon -->
-    <link rel="icon" type="image/png" sizes="56x56" href="{{asset('front/images/fav-icon/icon.png')}}">
+    <link rel="icon shortcut" type="image/png" sizes="56x56" href="{{asset('front/images/favicon.ico')}}">
     <!-- Main style sheet -->
     <link rel="stylesheet" type="text/css" href="{{asset('front/css/style.css')}}">
     <!-- responsive style sheet -->
