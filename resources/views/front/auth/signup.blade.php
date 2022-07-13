@@ -2,10 +2,22 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="keywords" content="Digital marketing agency, Digital marketing company, Digital marketing services">
-    <meta name="author" content="creativegigs">
-    <meta name="description" content="Rogan creative multipurpose is a beautiful website template designed for SEO & Digital Agency websites.">
-    <meta name='og:image' content='images/home/ogg.png'>
+    <meta charset="UTF-8">
+    <meta name="copyright" content="&ampcopy;  2022 Limkokwing University of Creative Technology. All Rights Reserved." />
+    <meta name="keywords" content="limkokwing, limkokwing university, top universities in malaysia, international university in malaysia, private university in malaysia, study at limkokwing, limkokwing university courses, limkokwing global classroom, limkokwing global campus, global university campus, student life at limkokwing university malaysia, best universities in malaysia" />
+    <meta name="robots" content="index,follow" />
+    <meta name="google-translate-customization" content="ffb2d2f886941cfe-630375d41001e19b-gc10449c3b881fbd1-d" />
+    <meta name="description" content="Limkokwing University is a private Malaysian university that offers accredited and recognised diploma, degree and postgraduate programmes." />
+    <meta property='og:description' content='Limkokwing University is a private Malaysian university founded in 1991. It offers accredited and recognised diploma, degree and postgraduate courses.'/>
+    <meta property="og:url" content="https://www.limkokwing.net/malaysia" />
+    <meta property='og:site_name' content='Limkokwing University'/>
+    <meta property='og:type' content='website'/>
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@limkokwing_my">
+    <meta name="twitter:creator" content="@limkokwing_my">
+    <meta name="twitter:title" content="">
+    <meta name='twitter:description' content='Limkokwing University is a private Malaysian university founded in 1991. It offers accredited and recognised diploma, degree and postgraduate courses.'/>
+    <meta name="twitter:image:src" content="">
     <!-- For IE -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <!-- For Resposive Device -->
@@ -17,7 +29,7 @@
     <meta name="msapplication-navbutton-color" content="#233D63">
     <!-- iOS Safari -->
     <meta name="apple-mobile-web-app-status-bar-style" content="#233D63">
-    <title>Rogan - Creative Multi-Purpose HTML Template</title>
+    <title>Limkokwing University of Creative Technology</title>
     <!-- Favicon -->
     <link rel="icon" type="image/png" sizes="56x56" href="{{asset('front/images/fav-icon/icon.png')}}">
     <!-- Main style sheet -->
@@ -45,35 +57,97 @@
         <div class="inner-wrapper">
             <div class="logo-wrapper">
                 <button class="close-button"><img src="{{asset('front/images/icon/icon43.svg')}}" alt=""></button>
-                <img src="{{asset('front/images/logo/logo5.svg')}}" alt="">
+                <img src="{{asset('front/images/logo.png')}}" alt="">
             </div>
 
             <div class="main-menu-list">
                 <ul>
-                    <li><a href="index-eCommerce.html">Home</a></li>
-                    <li><a href="about-us-standard.html">About us</a></li>
-                    <li><a href="features.html">Features</a></li>
-                    <li class="dropdown-holder">
-                        <a href="#">Pages<button type="button" class="expander"><i class="fa fa-chevron-down" aria-hidden="true"></i></button></a>
-                        <ul class="sub-menu">
-                            <li><a href="service-creative.html">Services</a></li>
-                            <li><a href="project-minimal.html">Portfolio</a></li>
-                            <li><a href="blog-filter.html">Blog</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="contact-us-minimal.html">Contact</a></li>
+                    <?php
+                    $pages = \App\Models\Pages::orderBy('is_main_page','desc')->get();
+                    ?>
+                    @foreach($pages as $page)
+                        <li><a href="{{url($page->slug)}}">{{$page->name}}.</a></li>
+                    @endforeach
                 </ul>
             </div>
             <form action="#" class="eCommerce-search">
                 <input type="text" placeholder="Search here">
                 <i class="fa fa-search icon" aria-hidden="true"></i>
             </form>
-            <p class="copy-right">&copy; 2019  All Right Reserved</p>
+            <p class="copy-right">&copy; 2022  All Right Reserved</p>
         </div> <!-- /.inner-wrapper -->
     </div> <!-- #sidebar-menu -->
 <!-- /.theme-Ecommerce-menu -->
 
+    <div class="theme-Ecommerce-menu">
+        <div class="d-flex justify-content-between align-items-center">
+            <div class="left-content">
+                <ul>
+                    <li>
+                        <button class="menu-button sidebar-menu-open"><img src="{{asset('front/images/logo/menu.svg')}}" alt=""></button>
+                    </li>
+                    {{--                    <li class="logo"><a href="index.html"><img src="{{asset('front/images/logo/logo5.svg')}}" alt=""></a></li>--}}
+                </ul>
+            </div> <!-- /.left-content -->
 
+            {{--            <div class="right-content">--}}
+            {{--                <ul>--}}
+            {{--                    <li class="action-list-item cart-action-wrapper">--}}
+            {{--                        <div class="dropdown">--}}
+            {{--                            <button class="dropdown-toggle" data-toggle="dropdown">--}}
+            {{--                                <img src="{{asset('front/images/icon/icon37.svg')}}" alt="">--}}
+            {{--                                <span class="item-count">02</span>--}}
+            {{--                            </button>--}}
+            {{--                            <div class="dropdown-menu dropdown-menu-right">--}}
+            {{--                                <ul class="cart-product-list">--}}
+            {{--                                    <li class="clearfix selected-item">--}}
+            {{--                                        <a href="#" class="item-img"><img src="{{asset('front/images/shop/1.png')}}" alt=""></a>--}}
+            {{--                                        <div class="item-info">--}}
+            {{--                                            <a href="#" class="name">Blue Fery.</a>--}}
+            {{--                                            <div class="price">$38.00 <span class="quantity">x 1</span></div>--}}
+            {{--                                            <a href="#" class="close"><i class="fa fa-window-close" aria-hidden="true"></i></a>--}}
+            {{--                                        </div> <!-- /.item-info -->--}}
+            {{--                                    </li> <!-- /.selected-item -->--}}
+            {{--                                    <li class="clearfix selected-item">--}}
+            {{--                                        <a href="#" class="item-img"><img src="{{asset('front/images/shop/2.png')}}" alt=""></a>--}}
+            {{--                                        <div class="item-info">--}}
+            {{--                                            <a href="#" class="name">Vibrant Shoe.</a>--}}
+            {{--                                            <div class="price">$125.00 <span class="quantity">x 1</span></div>--}}
+            {{--                                            <a href="#" class="close"><i class="fa fa-window-close" aria-hidden="true"></i></a>--}}
+            {{--                                        </div> <!-- /.item-info -->--}}
+            {{--                                    </li> <!-- /.selected-item -->--}}
+            {{--                                </ul> <!-- /.cart-product-list -->--}}
+            {{--                                <div class="subtotal d-flex justify-content-between align-items-center">--}}
+            {{--                                    <div class="title">Subtotal</div>--}}
+            {{--                                    <div class="total-price">$163.00</div>--}}
+            {{--                                </div>--}}
+            {{--                                <ul class="button-group">--}}
+            {{--                                    <li><a href="cart.html" class="view-cart">View Cart</a></li>--}}
+            {{--                                    <li><a href="checkout.html" class="checkout">Checkout</a></li>--}}
+            {{--                                </ul>--}}
+            {{--                            </div> <!-- /.dropdown-menu -->--}}
+            {{--                        </div>--}}
+            {{--                    </li> <!-- /.cart-action-wrapper -->--}}
+            {{--                    <li class="action-list-item user-profile-action">--}}
+            {{--                        <div class="dropdown">--}}
+            {{--                            <button class="dropdown-toggle" data-toggle="dropdown">--}}
+            {{--                                <img src="{{asset('front/images/icon/icon38.svg')}}" alt="">--}}
+            {{--                                <span>Account</span>--}}
+            {{--                            </button>--}}
+            {{--                            <div class="dropdown-menu dropdown-menu-right">--}}
+            {{--                                <ul>--}}
+            {{--                                    <li><a href="#"><img src="{{asset('front/images/icon/icon39.svg')}}" alt="" class="icon svg"> My Profile</a></li>--}}
+            {{--                                    <li><a href="#"><img src="{{asset('front/images/icon/icon40.svg')}}" alt="" class="icon svg"> Settings</a></li>--}}
+            {{--                                    <li><a href="#"><img src="{{asset('front/images/icon/icon42.svg')}}" alt="" class="icon svg"> Billing Address</a></li>--}}
+            {{--                                    <li><a href="#"><img src="{{asset('front/images/icon/icon41.svg')}}" alt="" class="icon svg"> Wishlist</a></li>--}}
+            {{--                                </ul>--}}
+            {{--                            </div> <!-- /.dropdown-menu -->--}}
+            {{--                        </div>--}}
+            {{--                    </li> <!-- /.user-profile-action -->--}}
+            {{--                </ul>--}}
+            {{--            </div>--}}
+        </div>
+    </div>
 
     <!--
     =============================================
@@ -81,14 +155,14 @@
     ==============================================
     -->
     <div class="signUp-page signUp-standard pt-50 pb-100">
-        <div class="shape-wrapper">
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-        </div> <!-- /.shape-wrapper -->
-        <div class="signUp-illustration"><img src="{{asset('front/images/home/sign-up.svg')}}" alt=""></div>
+{{--        <div class="shape-wrapper">--}}
+{{--            <span></span>--}}
+{{--            <span></span>--}}
+{{--            <span></span>--}}
+{{--            <span></span>--}}
+{{--            <span></span>--}}
+{{--        </div> <!-- /.shape-wrapper -->--}}
+        <div class="signUp-illustration"><img src="{{asset('front/images/new-bg.png')}}" width="" alt=""></div>
         <div class="container">
             <div class="row">
                 <div class="col-lg-7 ml-auto">
@@ -444,7 +518,7 @@
 {{--                            </div> <!-- /.acType-content -->--}}
                             <div class="agreement-checkbox">
                                 <input type="checkbox" id="agreement" name="terms_policy" value="1">
-                                <label for="agreement">I agree to the terms and policy from the rogan inc.</label>
+                                <label for="agreement">I agree to the terms and policy from the limkokwing university.</label>
                             </div>
                             <button class="solid-button-one">Signup</button>
                             <p class="signUp-text mt-5">Already have an account? <a href="{{route('front.login')}}">Login</a> now.</p>

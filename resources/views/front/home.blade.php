@@ -4,7 +4,8 @@
 @section('content')
 
     <div class="our-blog blog-details blog-details-fg">
-        <div class="blog-hero-banner" style="background-image: url({{url('uploads/'.$page->featured_image)}});">
+        <img src="{{url('uploads/'.$page->featured_image)}}" style="    position: relative;left: 50%;transform: translateX(-50%);">
+        <div class="blog-hero-banner1">
             <div class="blog-custom-container">
                 <a href="#" class="date" style="color: black">{{$page->created_at->format('d M, Y')}}</a>
                 <h2 class="blog-title"  style="color: black">{{$page->name}}</h2>

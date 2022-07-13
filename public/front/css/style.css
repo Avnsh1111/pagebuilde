@@ -755,10 +755,10 @@ body .solid-button-one:hover,.navbar .navbar-toggler,.faq-tab-wrapper .faq-panel
   padding: 65px 0 0;
 }
 .theme-menu-one .logo {
-  position: absolute;
-  top:-1px;
-  left:0;
-  z-index: 3;
+    position: absolute;
+    top: 30px;
+    left: 120px;
+    z-index: 3;
 }
 .theme-menu-one .logo a {display: block;}
 .theme-menu-one .navbar-nav .nav-item .nav-link {color: #64697A;}
@@ -966,7 +966,11 @@ body .solid-button-one:hover,.navbar .navbar-toggler,.faq-tab-wrapper .faq-panel
 
 .theme-menu-one.fixed,.theme-menu-two.fixed {padding: 20px 0 0;}
 .theme-main-menu.theme-menu-three.fixed {padding: 20px 0 5px;}
-.theme-menu-one.fixed .logo,.theme-menu-three.fixed .logo {width: 70px;}
+.theme-menu-one.fixed .logo,.theme-menu-three.fixed .logo { /*width: 70px; */     position: absolute;
+    top: -1px;
+    left: 0;
+    z-index: 3;
+    left: 120px; }
 .theme-menu-one.fixed .header-right-widget {top:7px;}
 .theme-menu-two.fixed .logo {top:7px;}
 .theme-menu-two.fixed .quote-button {top:9px;}

@@ -2,10 +2,21 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="keywords" content="Digital marketing agency, Digital marketing company, Digital marketing services">
-    <meta name="author" content="creativegigs">
-    <meta name="description" content="Rogan creative multipurpose is a beautiful website template designed for SEO & Digital Agency websites.">
-    <meta name='og:image' content='images/home/ogg.png'>
+    <meta name="copyright" content="&ampcopy;  2022 Limkokwing University of Creative Technology. All Rights Reserved." />
+    <meta name="keywords" content="limkokwing, limkokwing university, top universities in malaysia, international university in malaysia, private university in malaysia, study at limkokwing, limkokwing university courses, limkokwing global classroom, limkokwing global campus, global university campus, student life at limkokwing university malaysia, best universities in malaysia" />
+    <meta name="robots" content="index,follow" />
+    <meta name="google-translate-customization" content="ffb2d2f886941cfe-630375d41001e19b-gc10449c3b881fbd1-d" />
+    <meta name="description" content="Limkokwing University is a private Malaysian university that offers accredited and recognised diploma, degree and postgraduate programmes." />
+    <meta property='og:description' content='Limkokwing University is a private Malaysian university founded in 1991. It offers accredited and recognised diploma, degree and postgraduate courses.'/>
+    <meta property="og:url" content="https://www.limkokwing.net/malaysia" />
+    <meta property='og:site_name' content='Limkokwing University'/>
+    <meta property='og:type' content='website'/>
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@limkokwing_my">
+    <meta name="twitter:creator" content="@limkokwing_my">
+    <meta name="twitter:title" content="">
+    <meta name='twitter:description' content='Limkokwing University is a private Malaysian university founded in 1991. It offers accredited and recognised diploma, degree and postgraduate courses.'/>
+    <meta name="twitter:image:src" content="">
     <!-- For IE -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <!-- For Resposive Device -->
@@ -17,9 +28,9 @@
     <meta name="msapplication-navbutton-color" content="#233D63">
     <!-- iOS Safari -->
     <meta name="apple-mobile-web-app-status-bar-style" content="#233D63">
-    <title>Rogan - Creative Multi-Purpose HTML Template</title>
+    <title>Limkokwing University of Creative Technology</title>
     <!-- Favicon -->
-    <link rel="icon" type="image/png" sizes="56x56" href="{{asset('front/images/fav-icon/icon.png')}}">
+    <link rel="icon" type="image/png" sizes="56x56" href="{{asset('front/images/favicon.ico')}}">
     <!-- Main style sheet -->
     <link rel="stylesheet" type="text/css" href="{{asset('front/css/style.css')}}">
     <!-- responsive style sheet -->
@@ -74,7 +85,7 @@
     ==============================================
     -->
     <div class="theme-main-menu theme-menu-one">
-        <div class="logo"><a href="index.html"><img src="{{asset('front/images/logo/logo.svg')}}" alt=""></a></div>
+        <div class="logo"><a href="index.html"><img src="{{asset('front/images/logo.png')}}" alt=""></a></div>
         <nav id="mega-menu-holder" class="navbar navbar-expand-lg">
             <div  class="container nav-container">
                 <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -121,7 +132,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-3 col-sm-6 col-12 about-widget" data-aos="fade-up">
-                        <a href="index.html" class="logo"><img src="{{asset('front/images/logo/logo2.svg')}}" alt=""></a>
+                        <a href="#" class="logo"><img src="{{asset('front/images/logo.png')}}" alt=""></a>
                         <a href="#" class="email">boga.inc@company.com</a>
                         <a href="#" class="phone">720.661.2231</a>
 
@@ -139,11 +150,11 @@
                     <div class="col-lg-3 col-sm-6 col-12 footer-list" data-aos="fade-up">
                         <h5 class="title">About us</h5>
                         <ul>
-                            <li><a href="about-us-standard.html">About us</a></li>
-                            <li><a href="project-standard.html">Work Portfolio</a></li>
-                            <li><a href="team-standard.html">Team</a></li>
+                            <li><a href="#">About us</a></li>
+                            <li><a href="#">Work Portfolio</a></li>
+                            <li><a href="#">Team</a></li>
                             <li><a href="#">Plan & Pricing</a></li>
-                            <li><a href="blog-default.html">News</a></li>
+                            <li><a href="#">News</a></li>
                         </ul>
                     </div> <!-- /.footer-list -->
                     <div class="col-lg-3 col-lg-2 col-sm-6 col-12 footer-information" data-aos="fade-up">
