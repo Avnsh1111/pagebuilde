@@ -3,6 +3,7 @@
 <!--begin::Head-->
 <head><base href="../../../">
     <meta charset="utf-8" />
+    <title>Welcome to Limkokwing University Website Administrator</title>
     <meta name="copyright" content="&ampcopy;  2022 Limkokwing University of Creative Technology. All Rights Reserved." />
     <meta name="keywords" content="limkokwing, limkokwing university, top universities in malaysia, international university in malaysia, private university in malaysia, study at limkokwing, limkokwing university courses, limkokwing global classroom, limkokwing global campus, global university campus, student life at limkokwing university malaysia, best universities in malaysia" />
     <meta name="robots" content="index,follow" />
