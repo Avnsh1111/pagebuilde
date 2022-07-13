@@ -85,7 +85,7 @@
     ==============================================
     -->
     <div class="theme-main-menu theme-menu-one">
-        <div class="logo"><a href="{{url()}}"><img src="{{asset('front/images/logo.png')}}" alt=""></a></div>
+        <div class="logo"><a href="{{route('front.home')}}"><img src="{{asset('front/images/logo.png')}}" alt=""></a></div>
         <nav id="mega-menu-holder" class="navbar navbar-expand-lg">
             <div  class="container nav-container">
                 <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
