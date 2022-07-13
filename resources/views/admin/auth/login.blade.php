@@ -3,8 +3,21 @@
 <!--begin::Head-->
 <head><base href="../../../">
     <meta charset="utf-8" />
-    <title>Metronic | Login Page 1</title>
-    <meta name="description" content="Login page example" />
+    <meta name="copyright" content="&ampcopy;  2022 Limkokwing University of Creative Technology. All Rights Reserved." />
+    <meta name="keywords" content="limkokwing, limkokwing university, top universities in malaysia, international university in malaysia, private university in malaysia, study at limkokwing, limkokwing university courses, limkokwing global classroom, limkokwing global campus, global university campus, student life at limkokwing university malaysia, best universities in malaysia" />
+    <meta name="robots" content="index,follow" />
+    <meta name="google-translate-customization" content="ffb2d2f886941cfe-630375d41001e19b-gc10449c3b881fbd1-d" />
+    <meta name="description" content="Limkokwing University is a private Malaysian university that offers accredited and recognised diploma, degree and postgraduate programmes." />
+    <meta property='og:description' content='Limkokwing University is a private Malaysian university founded in 1991. It offers accredited and recognised diploma, degree and postgraduate courses.'/>
+    <meta property="og:url" content="https://www.limkokwing.net/malaysia" />
+    <meta property='og:site_name' content='Limkokwing University'/>
+    <meta property='og:type' content='website'/>
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@limkokwing_my">
+    <meta name="twitter:creator" content="@limkokwing_my">
+    <meta name="twitter:title" content="">
+    <meta name='twitter:description' content='Limkokwing University is a private Malaysian university founded in 1991. It offers accredited and recognised diploma, degree and postgraduate courses.'/>
+    <meta name="twitter:image:src" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <!--begin::Fonts-->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" />
