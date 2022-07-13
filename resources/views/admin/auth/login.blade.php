@@ -23,7 +23,7 @@
     <link href="{{asset('admin/css/themes/layout/brand/dark.css?v=7.0.5')}}" rel="stylesheet" type="text/css" />
     <link href="{{asset('admin/css/themes/layout/aside/dark.css?v=7.0.5')}}" rel="stylesheet" type="text/css" />
     <!--end::Layout Themes-->
-    <link rel="shortcut icon" href="{{asset('admin/media/logos/favicon.ico')}}" />
+    <link rel="icon shortcut" type="image/png" sizes="56x56" href="{{asset('front/images/favicon.ico')}}">
 </head>
 <!--end::Head-->
 <!--begin::Body-->
@@ -33,16 +33,16 @@
     <!--begin::Login-->
     <div class="login login-1 login-signin-on d-flex flex-column flex-lg-row flex-column-fluid bg-white" id="kt_login">
         <!--begin::Aside-->
-        <div class="login-aside d-flex flex-column flex-row-auto" style="background-color: #F2C98A;">
+        <div class="login-aside d-flex flex-column flex-row-auto" style="background-color: black;">
             <!--begin::Aside Top-->
             <div class="d-flex flex-column-auto flex-column pt-lg-40 pt-15">
                 <!--begin::Aside header-->
                 <a href="#" class="text-center mb-10">
-                    <img src="{{asset('admin/media/logos/logo-letter-1.png')}}" class="max-h-70px" alt="" />
+                    <img src="{{asset('front/images/logo.png')}}" class="max-h-70px" alt="" />
                 </a>
                 <!--end::Aside header-->
                 <!--begin::Aside title-->
-                <h3 class="font-weight-bolder text-center font-size-h4 font-size-h1-lg" style="color: #986923;">Discover Amazing Page Builder
+                <h3 class="font-weight-bolder text-center font-size-h4 font-size-h1-lg" style="color: white;">Discover Amazing Page Builder
                     <br />with great build tools</h3>
                 <!--end::Aside title-->
             </div>
