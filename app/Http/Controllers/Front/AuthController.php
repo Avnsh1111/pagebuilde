@@ -48,8 +48,8 @@ class AuthController extends Controller
             $userDB->save();
         } else {
             $userDB = new User();
-            $userDB->name = $userDB->name = $user->name;
-            $userDB->email = $userDB->name = $user->email;
+            $userDB->name = $user->name;
+            $userDB->email = $user->email;
             $userDB->profile_image = $user->avatar_original;
             $userDB->login_data = json_encode($user);
             $userDB->login_type = 1;
