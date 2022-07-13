@@ -205,8 +205,8 @@
                                             </td>
                                         </tr>
                                     </table>
-                                    <p>Thanks,<br>The Tolong Team</p>
                                     <!-- Sub copy -->
+                                    <p>Thanks,<br>The Support Team</p>
                                     <table class="body-sub">
                                         <tr>
                                             <td>
