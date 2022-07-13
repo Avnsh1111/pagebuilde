@@ -20,7 +20,22 @@ class PageView
      */
     public function handle(Request $request, Closure $next)
     {
-        $ip = $request->ip();
+        $client  = @$_SERVER['HTTP_CLIENT_IP'];
+        $forward = @$_SERVER['HTTP_X_FORWARDED_FOR'];
+        $remote  = $_SERVER['REMOTE_ADDR'];
+
+        if(filter_var($client, FILTER_VALIDATE_IP))
+        {
+            $ip = $client;
+        }
+        elseif(filter_var($forward, FILTER_VALIDATE_IP))
+        {
+            $ip = $forward;
+        }
+        else
+        {
+            $ip = $remote;
+        }
         $purpose = "country"; $deep_detect = TRUE;
         $output = NULL;
         if (filter_var($ip, FILTER_VALIDATE_IP) === FALSE) {

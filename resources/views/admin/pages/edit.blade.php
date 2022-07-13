@@ -58,7 +58,7 @@
                         <div class="form-group">
                             <label>Name</label>
                             <input type="text" class="form-control" name="name" placeholder="Enter page name" value="{{$page->name}}" autocomplete="off"/>
-                            <input type="hidden" id="pageData" name="pagedata" value="{!! $page->content !!}">
+                            <input type="hidden" id="pageData" name="pagedata" value="{{ $page->content }}">
                         </div>
                         <div class="form-group row">
                             <label class="col-xl-3 col-lg-3 col-form-label text-left">Featured Image</label>

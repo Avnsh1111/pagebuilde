@@ -13,7 +13,7 @@
         <div class="blog-fg-data">
             <div class="post-data">
                 <div class="blog-custom-container">
-                    <div class="custom-container-bg">
+                    <div class="custom-container-bg" style="background-color: {{$page->background_color}}">
                         {!! $content !!}
                     </div> <!-- /.custom-container-bg -->
                 </div> <!-- /.blog-custom-container -->
