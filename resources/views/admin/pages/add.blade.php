@@ -155,6 +155,10 @@
     <script src="https://cdn.jsdelivr.net/npm/@editorjs/table@latest"></script><!-- Table -->
     <script src="https://cdn.jsdelivr.net/npm/@editorjs/link@latest"></script><!-- Link -->
     <script src="https://cdn.jsdelivr.net/npm/@editorjs/warning@latest"></script><!-- Warning -->
+    <script src="https://cdn.jsdelivr.net/npm/@editorjs/raw"></script><!-- Warning -->
+
+
+
 
     <script src="https://cdn.jsdelivr.net/npm/@editorjs/marker@latest"></script><!-- Marker -->
     <script src="https://cdn.jsdelivr.net/npm/@editorjs/inline-code@latest"></script><!-- Inline Code -->
@@ -273,6 +277,7 @@
                     inlineToolbar: true,
                     shortcut: 'CMD+ALT+T'
                 },
+                raw: RawTool,
 
             },
 

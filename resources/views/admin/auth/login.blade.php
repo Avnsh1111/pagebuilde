@@ -42,13 +42,15 @@
                 </a>
                 <!--end::Aside header-->
                 <!--begin::Aside title-->
-                <h3 class="font-weight-bolder text-center font-size-h4 font-size-h1-lg" style="color: white;">Discover Amazing Page Builder
-                    <br />with great build tools</h3>
+                <h3 class="font-weight-bolder text-center font-size-h4 font-size-h1-lg" style="color: white;">Login and manage website easily
+                    <br />Control by single click</h3>
                 <!--end::Aside title-->
             </div>
             <!--end::Aside Top-->
             <!--begin::Aside Bottom-->
-            <div class="aside-img d-flex flex-row-fluid bgi-no-repeat bgi-position-y-bottom bgi-position-x-center" style="background-image: url({{asset('admin/media/svg/illustrations/login-visual-1.svg')}})"></div>
+            <div class="aside-img d-flex flex-row-fluid bgi-no-repeat bgi-position-y-bottom bgi-position-x-center">
+                <img class="img-reponsive" src="{{asset('front/images/login-image.png')}}" style="    width: 500px;height: 300px;position: relative;left: 50%;transform: translateX(-50%);top: 15%;">
+            </div>
             <!--end::Aside Bottom-->
         </div>
         <!--begin::Aside-->
@@ -62,8 +64,9 @@
                     <form class="form" method="post" action="{{route('admin.checkLogin')}}" novalidate="novalidate" >
                         @csrf
                         <!--begin::Title-->
+
                         <div class="pb-13 pt-lg-0 pt-5">
-                            <h3 class="font-weight-bolder text-dark font-size-h4 font-size-h1-lg">Welcome to Page Builder</h3>
+                            <h3 class="font-weight-bolder text-dark font-size-h4 font-size-h1-lg">Welcome to Limkokwing University Website Administrator</h3>
                         </div>
                         <!--begin::Title-->
                         @if(session()->has('success'))
